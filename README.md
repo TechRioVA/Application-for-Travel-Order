@@ -4,6 +4,7 @@ A web-based dashboard and automation system that generates, tracks, and manages 
 
 Built as an intern project for the **Human Resource Management Office (HRMO), Municipal Government, Ilocos Sur.**
 
+
 ## Preview
 
 <p align="center">
@@ -11,6 +12,10 @@ Built as an intern project for the **Human Resource Management Office (HRMO), Mu
 </p>
 
 ---
+
+## About this project
+
+I'm not a professional developer — I'm an aspiring automation and coding tech, and this system was built with the help of AI (Claude). I described the workflow HRMO needed, iterated on it conversationally, and put it together piece by piece rather than writing it from deep prior software engineering experience. It's a real system actively used for actual government office work, but the code reflects a learner's process — I leaned on AI heavily to translate what I understood about the manual process into working automation, and I'm still growing my own understanding of the underlying code as I go.
 
 ## Overview
 
@@ -108,7 +113,7 @@ No external frameworks, no build step — everything runs inside the Apps Script
 
 ## Notes on portability
 
-This project is wired directly to a specific Google Sheet, Drive folder structure, and set of department/signatory data for the Municipality of Santa's HRMO, so it isn't a drop-in template — the spreadsheet IDs, folder IDs, and department mappings (`SPREADSHEET_ID`, `DEPARTMENTS_FOLDER_ID`, `ACTIVITY_LOG_SPREADSHEET_ID`, `MAIN_TEMPLATE_FOLDER_ID`, `DEPARTMENT_CODES`, etc.) are hardcoded at the top of `Code.gs` and would need to be replaced with your own for a different deployment.
+This project is wired directly to a specific Google Sheet, Drive folder structure, and set of department/signatory data for the municipality's HRMO, so it isn't a drop-in template — the spreadsheet IDs, folder IDs, and department mappings (`SPREADSHEET_ID`, `DEPARTMENTS_FOLDER_ID`, `ACTIVITY_LOG_SPREADSHEET_ID`, `MAIN_TEMPLATE_FOLDER_ID`, `DEPARTMENT_CODES`, etc.) are hardcoded at the top of `Code.gs` and would need to be replaced with your own for a different deployment.
 
 That said, the underlying patterns — form-triggered document generation, sequential numbering that survives out-of-order edits, name-matching against a folder tree, and a dashboard layered on top of a spreadsheet via Apps Script's `HtmlService` — are reusable for similar internal tools.
 
@@ -116,4 +121,4 @@ That said, the underlying patterns — form-triggered document generation, seque
 
 ## Author
 
-Built by **Rio**, HRMO Intern — Municipal Government Ilocos Sur, Philippines.
+Built by **Rio**, HRMO Intern — Municipal Government, Ilocos Sur, Philippines. Learning automation and coding as I go, with AI (Claude) as my main collaborator in turning this office's manual process into a working system.
