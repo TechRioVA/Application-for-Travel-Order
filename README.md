@@ -116,4 +116,4 @@ That said, the underlying patterns — form-triggered document generation, seque
 
 ## Author
 
-Built by **Rio**, HRMO Intern — Municipal Government of Santa, Ilocos Sur, Philippines.
+Built by **Rio**, HRMO Intern — Municipal Government Ilocos Sur, Philippines.
