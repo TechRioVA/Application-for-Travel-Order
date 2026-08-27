@@ -7,7 +7,7 @@ Built as an intern project for the **Human Resource Management Office (HRMO), Mu
 ## Preview
 
 <p align="center">
-  <img src="./screenshots/Dashboard%20Screenshot.png" width="800" alt="Dashboard Preview">
+  <img src="./Dashboard%20Screenshot.png" width="800" alt="Dashboard Preview">
 </p>
 
 ---
